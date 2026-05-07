@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhant Maheta | Android Developer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 0 20px;
+        }
+        header {
+            background: #3DDC84;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        .contact-info {
+            margin-top: 15px;
+        }
+        .contact-info a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            background: #fff;
+            margin: 20px 0;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #3DDC84;
+            border-bottom: 2px solid #3DDC84;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .project {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .project h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .tech-badge {
+            display: inline-block;
+            background: #e0e0e0;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            margin: 5px 5px 0 0;
+        }
+        .btn {
+            display: inline-block;
+            background: #3DDC84;
+            color: #fff;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            margin-right: 10px;
+            font-size: 0.9rem;
+        }
+        .btn:hover {
+            background: #2bb673;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-item {
+            background: #3DDC84;
+            color: #fff;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+            header h1 { font-size: 1.8rem; }
+            .container { padding: 0 15px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Siddhant Maheta</h1>
+            <p>Android Developer | Java · Kotlin · Firebase</p>
+            <div class="contact-info">
+                <a href="mailto:siddhantmaheta776.email@example.com">📧 Email</a>
+                <a href="https://github.com/sidhant112233" target="_blank">🐙 GitHub</a>
+                <a href="https://linkedin.com/in/sidhant112233" target="_blank">🔗 LinkedIn</a>
+                <a href="tel:+917096294362">📞 +91 70962 94362</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Profile Section -->
+        <section>
+            <h2>👨‍💻 About Me</h2>
+            <p>Dedicated and detail-oriented Android App Developer with hands-on experience in building applications using Java and Kotlin. Currently pursuing BCA with strong foundation in programming and problem-solving. Passionate about creating user-centric mobile solutions and continuously learning new technologies.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section>
+            <h2>📱 Featured Projects</h2>
+            
+            <div class="project">
+                <h3>🏏 Live Cricket Score - CricLive</h3>
+                <p>Production-grade Android app delivering live cricket scores, ball-by-ball updates, player statistics, and gamified reward charts. Features dynamic ad management with ad unit IDs controlled remotely via Firebase Remote Config + Firestore, and push notifications using FCM for match reminders.</p>
+                <div>
+                    <span class="tech-badge">Java</span>
+                    <span class="tech-badge">MVVM</span>
+                    <span class="tech-badge">Retrofit</span>
+                    <span class="tech-badge">Firebase</span>
+                    <span class="tech-badge">FCM</span>
+                </div>
+                <a href="https://github.com/sidhant112233" class="btn">🔗 GitHub</a>
+                <a href="#" class="btn">📥 APK</a>
+            </div>
+
+            <div class="project">
+                <h3>🎁 RewardHub - Free Rewards & Redeem Codes</h3>
+                <p>Guide application helping users find legitimate ways to redeem diamonds, Roblox codes, gift cards, and in-game currencies. Provides step-by-step guides, working redeem codes, daily reward offers, and task-based reward points. Same ad management system as CricLive.</p>
+                <div>
+                    <span class="tech-badge">Kotlin</span>
+                    <span class="tech-badge">Firebase</span>
+                    <span class="tech-badge">Material Design</span>
+                </div>
+                <a href="#" class="btn">🔗 GitHub</a>
+                <a href="#" class="btn">📥 APK</a>
+            </div>
+
+            <div class="project">
+                <h3>📷 MediaVault - Gallery & Video Player</h3>
+                <p>Powerful Android media management app that replaces default gallery and video player. Users can view all images and videos, organize media files, play videos with custom controls, and manage media with advanced features. Unified ad management system.</p>
+                <div>
+                    <span class="tech-badge">Java</span>
+                    <span class="tech-badge">MediaPlayer</span>
+                    <span class="tech-badge">File Management</span>
+                </div>
+                <a href="#" class="btn">🔗 GitHub</a>
+                <a href="#" class="btn">📥 APK</a>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section>
+            <h2>⚙️ Technical Skills</h2>
+            <div class="skills-list">
+                <span class="skill-item">Java</span>
+                <span class="skill-item">Kotlin</span>
+                <span class="skill-item">Android Studio</span>
+                <span class="skill-item">XML</span>
+                <span class="skill-item">MVVM</span>
+                <span class="skill-item">Firebase</span>
+                <span class="skill-item">Room DB</span>
+                <span class="skill-item">SQLite</span>
+                <span class="skill-item">Retrofit</span>
+                <span class="skill-item">REST APIs</span>
+                <span class="skill-item">Git/GitHub</span>
+                <span class="skill-item">Material Design</span>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2>🎓 Education</h2>
+            <p><strong>Bachelor of Computer Applications (BCA)</strong><br>Veer Narmad South Gujarat University (VNSGU)</p>
+            <p style="margin-top: 10px;"><strong>Higher Secondary Certificate (H.S.C)</strong><br>Shree Muktananda Sanskrit Mahavidyalaya (SMSMV) | 2019-2020</p>
+        </section>
+
+        <!-- Download Resume -->
+        <section>
+            <h2>📄 Resume</h2>
+            <a href="#" class="btn" style="background: #0077b5;">Download Resume (PDF)</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Siddhant Maheta | Built with ❤️ for Android Development</p>
+    </footer>
+</body>
+</html>
